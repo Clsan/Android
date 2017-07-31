@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <TextView android:id="@+id/park_name_ko"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20.67dp"
+    android:layout_marginStart="20.67dp"
+    android:textColor="@color/byciclover_main_text"
+    android:textSize="20sp"
+    fontPath="fonts/NotoSansCJKkr-Medium.otf" />
+  <TextView android:id="@+id/park_name_en"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:layout_marginStart="20.67dp"
+    android:textColor="@color/byciclover_sub_text"
+    android:textSize="14sp" />
+
+  <android.support.v4.view.ViewPager
+    android:id="@+id/pager_view_carousel"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="18dp"
+    android:layout_gravity="start"
+    android:overScrollMode="never" />
+
+  <LinearLayout android:id="@+id/fragment_carousel_indicator"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="19dp"
+    android:layout_marginTop="15dp"
+    android:gravity="bottom|end">
+    <ImageView
+      android:id="@+id/fragment_carousel_alone"
+      android:layout_height="19dp"
+      android:layout_width="11.67dp"
+      android:layout_marginEnd="5dp"
+      android:src="@drawable/alone_icon_purple" />
+    <TextView android:id="@+id/fragment_carousel_alone_text"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginEnd="14dp"
+      android:text="10"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+    <ImageView
+      android:id="@+id/fragment_carousel_couple"
+      android:layout_height="19dp"
+      android:layout_width="12dp"
+      android:layout_marginEnd="5dp"
+      android:src="@drawable/couple_icon_purple" />
+    <TextView android:id="@+id/fragment_carousel_couple_text"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginEnd="10.33dp"
+      android:text="14"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+    <ImageView
+      android:id="@+id/fragment_carousel_friend"
+      android:layout_height="18dp"
+      android:layout_width="18.33dp"
+      android:layout_marginEnd="3.67dp"
+      android:src="@drawable/friend_icon_purple" />
+    <TextView android:id="@+id/fragment_carousel_friend_text"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginEnd="24dp"
+      android:text="28"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+  </LinearLayout>
+
+  <ImageView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/separate_line" />
+
+  <LinearLayout android:id="@+id/fragment_carousel_bottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20.67dp">
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginTop="10dp"
+      android:text="@string/select_map_length"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+    <TextView android:id="@+id/fragment_carousel_park_length"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:textColor="@color/byciclover_sub_text" />
+
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginTop="10.67dp"
+      android:text="@string/select_map_description"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+
+    <TextView android:id="@+id/fragment_carousel_park_description"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:textColor="@color/byciclover_sub_text"
+      android:lineSpacingExtra="-1dp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    android:layout_width="303.33dp"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20.67dp">
+    <ImageView android:id="@+id/fragment_carousel_location"
+      android:layout_width="303.33dp"
+      android:layout_height="84dp"
+      android:background="@drawable/location_nanji"
+      android:layout_marginBottom="40.33dp" />
+  </LinearLayout>
+
+</LinearLayout>

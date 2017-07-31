@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="61.67dp"
+  android:gravity="start"
+  android:background="@color/byciclover_white">
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="63.67dp"
+    android:gravity="start|bottom">
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="38dp"
+      android:gravity="end|bottom"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true">
+      <ImageView
+        android:id="@+id/top_bar_user"
+        android:paddingStart="13.33dp"
+        android:paddingEnd="10.67dp"
+        android:paddingTop="8.67dp"
+        android:paddingBottom="15dp"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/top_bar_user"/>
+      <ImageView
+        android:id="@+id/top_bar_title_image_view"
+        android:paddingStart="130dp"
+        android:paddingEnd="130dp"
+        android:paddingTop="9.33dp"
+        android:paddingBottom="9.33dp"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/logo_text"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+      <RelativeLayout
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:gravity="start|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+          android:id="@+id/top_bar_menu_btn"
+          android:layout_width="38dp"
+          android:layout_height="38dp"
+          android:paddingStart="11.33dp"
+          android:paddingEnd="11.33dp"
+          android:paddingTop="9dp"
+          android:paddingBottom="15.67dp"
+          android:layout_centerInParent="true"
+          android:src="@drawable/menu"
+          android:contentDescription="@string/default_string" />
+        <ImageView
+          android:id="@+id/top_bar_back_btn"
+          android:layout_width="38dp"
+          android:layout_height="38dp"
+          android:padding="16dp"
+          android:layout_centerInParent="true"
+          android:src="@android:drawable/ic_menu_close_clear_cancel"
+          android:visibility="gone"
+          android:contentDescription="@string/default_string" />
+      </RelativeLayout>
+    </RelativeLayout>
+  </RelativeLayout>
+
+</RelativeLayout>
+
+  <!--
+              android:paddingLeft="66dp"
+              android:paddingRight="10dp"
+              android:paddingStart="66dp"
+              android:paddingEnd="10dp" -->

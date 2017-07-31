@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_info_detail_top_bar"
+    android:layout_width="match_parent"
+    android:layout_height="63.67dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/top_bar">
+    <ImageView
+      android:id="@+id/top_bar_title_image_view"
+      android:paddingStart="130dp"
+      android:paddingEnd="130dp"
+      android:paddingTop="9.33dp"
+      android:paddingBottom="9.33dp"
+      android:layout_width="match_parent"
+      android:layout_height="38dp"
+      android:gravity="center_vertical"
+      android:src="@drawable/logo_text"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true"/>
+  </RelativeLayout>
+
+  <FrameLayout
+    android:id="@+id/framelayout_activity_info_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/activity_info_detail_top_bar" />
+
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/byciclover_soft_gray">
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="7dp"
+      android:layout_marginBottom="7dp"
+      android:background="@color/byciclover_soft_gray">
+
+      <ImageView
+        android:id="@+id/activity_info_detail_bottom_first_indicator"
+        android:layout_height="7dp"
+        android:layout_width="7dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/circle_purple" />
+
+      <ImageView
+        android:id="@+id/activity_info_detail_bottom_second_indicator"
+        android:layout_height="7dp"
+        android:layout_width="7dp"
+        android:background="@drawable/circle_soft_purple" />
+
+    </LinearLayout>
+
+    <Button
+      android:id="@+id/activity_info_detail_bottom_button"
+      android:layout_width="match_parent"
+      android:layout_height="49dp"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginLeft="14.33dp"
+      android:layout_marginStart="14.33dp"
+      android:layout_marginRight="14.33dp"
+      android:layout_marginEnd="14.33dp"
+      android:layout_marginBottom="10.67dp"
+      android:background="@drawable/rectangle_part_rounded_purple"
+      android:text="@string/detail_info_next"
+      android:textColor="@android:color/white"
+      android:textSize="16sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+  </LinearLayout>
+
+</RelativeLayout>

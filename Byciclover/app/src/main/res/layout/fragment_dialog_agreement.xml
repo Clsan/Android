@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/dialog_layout"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  android:background="@color/byciclover_gray_opacity"
+  android:paddingTop="136.66dp"
+  android:gravity="center_horizontal">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="290dp"
+    android:layout_marginTop="136.66dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_bg_white">
+
+    <TextView
+      android:id="@+id/agreement_dialog_title_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      android:layout_gravity="center"
+      android:text="@string/agreement_header"
+      android:textSize="16sp"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10.33dp"
+      android:textSize="12sp"
+      android:text="@string/agreement_reason_string"
+      android:textColor="@color/byciclover_main_text"
+      android:textAlignment="center"/>
+
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="18.33dp"
+      android:layout_marginBottom="12.66dp"
+      android:gravity="center">
+
+      <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/button_agree_fda"
+        android:layout_height="32.66dp"
+        android:layout_width="120.5dp"
+        android:layout_marginEnd="15.66dp"
+        android:background="@drawable/rectangle_button_purple"
+        android:text="@string/agreement_btn_y"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15.33sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+      <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/button_disagree_fda"
+        android:layout_height="32.66dp"
+        android:layout_width="120.5dp"
+        android:background="@drawable/rectangle_button_purple"
+        android:text="@string/agreement_btn_n"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15.33sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+    </LinearLayout>
+  </LinearLayout>
+
+</LinearLayout>

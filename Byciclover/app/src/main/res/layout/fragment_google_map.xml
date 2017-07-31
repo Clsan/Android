@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" >
+
+  <fragment
+    android:id="@+id/fragment_google_map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+  <LinearLayout
+    android:layout_height="5dp"
+    android:layout_width="match_parent"
+    android:background="@drawable/green_line"
+    android:orientation="vertical"/>
+
+  <LinearLayout
+    android:id="@+id/google_map_title_box_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13.66dp"
+    android:gravity="center"
+    android:visibility="invisible">
+
+    <TextView
+      android:id="@+id/google_map_title_tv"
+      android:layout_width="250.33dp"
+      android:layout_height="42.66dp"
+      android:paddingTop="8dp"
+      android:background="@drawable/purple_box"
+      android:gravity="center_horizontal"
+      android:text="@string/google_map_select_marker"
+      android:textColor="@color/byciclover_white"
+      android:textSize="16.66sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+  </LinearLayout>
+
+  <RelativeLayout
+    android:id="@+id/google_map_return_bill_rl"
+    android:layout_width="250.33dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13.66dp"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible">
+    <ImageView
+      android:id="@+id/google_map_return_bill_background"
+      android:layout_height="417dp"
+      android:layout_width="match_parent"
+      android:paddingStart="3dp"
+      android:src="@drawable/return_bill_background"/>
+
+    <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:paddingTop="70dp"
+      android:gravity="center"
+      android:orientation="vertical">
+      <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="자전거 이용장소"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="10.63sp" />
+      <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="여의도 한강공원"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="17.27sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"  />
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:text="이용시간"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="13sp"/>
+
+        <TextView
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:text="1 hour"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="15sp"
+          fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+      </LinearLayout>
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:text="남은시간"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="13sp"/>
+
+        <TextView
+          android:layout_width="90dp"
+          android:layout_height="wrap_content"
+          android:text="15 minutes"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="15sp"
+          fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+      </LinearLayout>
+
+      <Button
+        android:id="@+id/google_map_return_button"
+        android:layout_height="49.33dp"
+        android:layout_width="229dp"
+        android:layout_marginTop="45dp"
+        android:text="자전거 반납안내"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15.58sp"
+        android:background="@drawable/purple_box"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+    </LinearLayout>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/google_map_return_title_rl"
+    android:layout_width="250.33dp"
+    android:layout_height="42.66dp"
+    android:layout_marginTop="13.66dp"
+    android:background="@drawable/purple_box"
+    android:layout_centerHorizontal="true"
+    android:visibility="invisible">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="15:00"
+      android:textColor="@color/byciclover_white"
+      android:textSize="16.66sp"
+      android:gravity="center"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+    <ImageView
+      android:id="@+id/google_map_return_title_down_button"
+      android:layout_height="25.66dp"
+      android:layout_width="50dp"
+      android:paddingStart="19.66dp"
+      android:paddingEnd="19.66dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"/>
+
+  </RelativeLayout>
+
+  <Button
+    android:layout_width="34.66dp"
+    android:layout_height="36dp"
+    android:id="@+id/btn_curr_location"
+    android:layout_marginTop="14.66dp"
+    android:layout_marginStart="10.66dp"
+    android:background="@drawable/map_curr_location_clicked"
+    android:tag="clicked" />
+
+  <Button
+    android:layout_width="34.66dp"
+    android:layout_height="36dp"
+    android:id="@+id/btn_headset"
+    android:layout_marginTop="59dp"
+    android:layout_marginStart="10.66dp"
+    android:background="@drawable/map_headset"
+    android:tag="" />
+
+  <FrameLayout
+    android:id="@+id/framelayout_map"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-5dp"/>
+</RelativeLayout>

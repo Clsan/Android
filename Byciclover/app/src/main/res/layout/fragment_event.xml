@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/fragment_event_ll"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center_horizontal"
+  android:background="@color/byciclover_gray_opacity">
+
+  <LinearLayout
+    android:layout_height="329.33dp"
+    android:layout_width="253.33dp"
+    android:layout_marginTop="68dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/event_background"
+    android:orientation="vertical">
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginTop="15.33dp"
+      android:text="랜덤알림"
+      android:textColor="@color/byciclover_white"
+      android:textSize="17.44sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+    <ImageView
+      android:id="@+id/fragment_event_iv"
+      android:layout_height="158.33dp"
+      android:layout_width="158.33dp"
+      android:layout_marginTop="45.33dp" />
+    <TextView
+      android:id="@+id/fragment_event_tv"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginTop="15dp"
+      android:textSize="13.06sp"
+      android:textColor="@color/byciclover_main_text"
+      android:textAlignment="center" />
+  </LinearLayout>
+
+</LinearLayout>

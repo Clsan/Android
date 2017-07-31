@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/return_dialog_layout"
+  android:layout_height="match_parent"
+  android:layout_width="match_parent"
+  android:paddingTop="136.66dp"
+  android:gravity="center_horizontal"
+  android:background="@color/byciclover_gray_opacity">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="290dp"
+    android:layout_marginTop="136.66dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/rectangle_bg_white">
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="28dp"
+      android:layout_gravity="center"
+      android:text="자전거 반납"
+      android:textSize="16sp"
+      android:textColor="@color/byciclover_main_text"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_marginTop="10.33dp"
+      android:textSize="12sp"
+      android:text="127-3 대여소에 반납이 완료되었습니다."
+      android:textColor="@color/byciclover_main_text"
+      android:textAlignment="center"/>
+
+
+    <Button
+      style="@style/Widget.AppCompat.Button.Borderless"
+      android:id="@+id/return_dialog_button"
+      android:layout_height="46dp"
+      android:layout_width="259dp"
+      android:layout_marginTop="14.8dp"
+      android:layout_marginBottom="16.66dp"
+      android:background="@drawable/rectangle_button_purple"
+      android:text="확인"
+      android:textColor="@color/byciclover_white"
+      android:textSize="15.33sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.clsan.byciclover" >
+
+  <!--google map permissions-->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+  <application
+    android:allowBackup="true"
+    android:icon="@drawable/byciclover_icon"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme"
+    android:largeHeap="true">
+
+    <activity
+      android:name=".activities.SplashActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme.NoActionBar" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+
+    <activity
+      android:name=".activities.NicknameActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+
+    <activity
+      android:name=".activities.DetailInfoActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+
+    <activity
+      android:name=".activities.MainActivity"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+
+    <!--For google map api-->
+    <meta-data
+      android:name="com.google.android.geo.API_KEY"
+      android:value="@string/maps_key" />
+
+  </application>
+
+</manifest>

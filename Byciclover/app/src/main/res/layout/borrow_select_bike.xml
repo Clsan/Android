@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center_horizontal">
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_1"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp">
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_1"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_1"
+      android:layout_height="130.66dp"
+      android:layout_width="46.66dp"
+      android:layout_below="@+id/borrow_select_bike_marker_1"
+      android:src="@drawable/borrow_bike_not_selected" />
+    <TextView
+      android:id="@+id/borrow_select_bike_tv_1"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="1"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_1"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_2"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp">
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_2"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_2"
+      android:layout_height="130.66dp"
+      android:layout_width="46.66dp"
+      android:layout_below="@+id/borrow_select_bike_marker_2"
+      android:src="@drawable/borrow_bike_not_selected" />
+    <TextView
+      android:id="@+id/borrow_select_bike_tv_2"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="2"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_2"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_3"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp"
+    >
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_3"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/borrow_bike_select_marker" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_3"
+      android:layout_height="130.66dp"
+      android:layout_width="46.66dp"
+      android:layout_below="@+id/borrow_select_bike_marker_3"
+      android:src="@drawable/borrow_bike_selected" />
+    <TextView
+      android:id="@+id/borrow_select_bike_tv_3"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="2dp"
+      android:text="3"
+      android:textColor="@color/byciclover_main_text"
+      android:layout_below="@+id/borrow_select_bike_marker_3"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_4"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp"
+    >
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_4"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_4"
+      android:layout_height="31dp"
+      android:layout_width="29.67dp"
+      android:layout_marginTop="1.8dp"
+      android:layout_below="@+id/borrow_select_bike_marker_4"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/borrow_bike_cradle" />
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="4"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_4"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_5"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp"
+    >
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_5"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_5"
+      android:layout_height="130.66dp"
+      android:layout_width="46.66dp"
+      android:layout_below="@+id/borrow_select_bike_marker_5"
+      android:src="@drawable/borrow_bike_not_selected" />
+    <TextView
+      android:id="@+id/borrow_select_bike_tv_5"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="5"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_5"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_6"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp"
+    >
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_6"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_6"
+      android:layout_height="31dp"
+      android:layout_width="29.67dp"
+      android:layout_marginTop="1.8dp"
+      android:layout_below="@+id/borrow_select_bike_marker_6"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/borrow_bike_cradle" />
+    <TextView
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="6"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_6"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/borrow_select_bike_rl_7"
+    android:layout_height="wrap_content"
+    android:layout_width="46.67dp"
+    >
+    <ImageView
+      android:id="@+id/borrow_select_bike_marker_7"
+      android:layout_width="26.33dp"
+      android:layout_height="34.33dp"
+      android:layout_marginBottom="21dp"
+      android:layout_centerHorizontal="true" />
+    <ImageView
+      android:id="@+id/borrow_select_bike_cradle_and_bike_7"
+      android:layout_height="130.66dp"
+      android:layout_width="46.66dp"
+      android:layout_below="@+id/borrow_select_bike_marker_7"
+      android:src="@drawable/borrow_bike_not_selected" />
+    <TextView
+      android:id="@+id/borrow_select_bike_tv_7"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:paddingTop="3dp"
+      android:text="7"
+      android:textColor="@color/byciclover_white"
+      android:layout_below="@+id/borrow_select_bike_marker_7"
+      android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+
+</LinearLayout>

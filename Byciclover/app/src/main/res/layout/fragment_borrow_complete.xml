@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <ImageView android:id="@+id/borrow_complete_background"
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"/>
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="525dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="43dp"
+      android:text="@string/select_map_yeouido_ko"
+      android:textColor="@color/byciclover_white"
+      android:textSize="22.66sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/navigate_header"
+      android:textColor="@color/byciclover_white"
+      android:textSize="14sp"/>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="130dp"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="대여자"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="13sp"/>
+
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="sona"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="대여일시"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="13sp"/>
+
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="2017-05-10"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="대여시간"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="13sp"/>
+
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="1:06 - 2:06"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="결제금액"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="13sp"/>
+
+      <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="1,000"
+        android:textColor="@color/byciclover_main_text"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="35dp"
+      android:orientation="horizontal"
+      android:gravity="center_horizontal">
+      <TextView
+        android:layout_width="49dp"
+        android:layout_height="62.66dp"
+        android:layout_marginEnd="9.33dp"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="19.66sp"
+        android:textColor="@color/byciclover_purple"
+        android:background="@drawable/borrow_complete_number"/>
+      <TextView
+        android:layout_width="49dp"
+        android:layout_height="62.66dp"
+        android:layout_marginEnd="9.33dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="19.66sp"
+        android:textColor="@color/byciclover_purple"
+        android:background="@drawable/borrow_complete_number"/>
+      <TextView
+        android:layout_width="49dp"
+        android:layout_height="62.66dp"
+        android:layout_marginEnd="9.33dp"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="19.66sp"
+        android:textColor="@color/byciclover_purple"
+        android:background="@drawable/borrow_complete_number"/>
+      <TextView
+        android:layout_width="49dp"
+        android:layout_height="62.66dp"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="19.66sp"
+        android:textColor="@color/byciclover_purple"
+        android:background="@drawable/borrow_complete_number"/>
+    </LinearLayout>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5.33dp"
+      android:text="* 상단의 번호 4자리를 자전거에 입력하시면 대여가 완료됩니다."
+      android:textSize="10.66sp"
+      android:textColor="@color/byciclover_main_text" />
+
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/fragment_borrow_complete_bottom_button"
+    android:layout_width="match_parent"
+    android:layout_height="59.33dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginStart="11dp"
+    android:layout_marginEnd="11dp"
+    android:layout_marginBottom="10.67dp"
+    android:background="@drawable/rectangle_part_rounded_purple"
+    android:text="맵으로 이동"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    fontPath="fonts/NotoSansCJKkr-Bold.otf"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

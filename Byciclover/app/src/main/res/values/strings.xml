@@ -1,0 +1,91 @@
+<resources>
+  <string name="default_string">기본 문자열</string>
+
+  <string name="app_name">Byciclover</string>
+  <string name="action_settings">Settings</string>
+  <string name="logo_image">로고 이미지</string>
+
+  <string name="nickname_title">닉네임 설정</string>
+  <string name="nickname_confirm">다음</string>
+  <string name="nickname_hint">닉네임을 입력해주세요</string>
+  <string name="nickname_already_exist">이미 사용 중인 닉네임 이에요. 더 좋은게 분명 있을거에요!</string>
+  <string name="nickname_looks_good">사용 가능한 닉네임 입니다!</string>
+
+  <string name="detail_info_q1">Q1. </string>
+  <string name="detail_info_q2">Q2. </string>
+  <string name="detail_info_q3">Q3. </string>
+  <string name="detail_info_q1_string">성별을 선택하여 주세요</string>
+  <string name="detail_info_q2_string">연령대를 선택하여 주세요</string>
+  <string name="detail_info_q3_string">누구와 함께 왔나요?</string>
+  <string name="detail_info_male">남자</string>
+  <string name="detail_info_female">여자</string>
+  <string name="detail_info_teens">10대</string>
+  <string name="detail_info_twenties">20대</string>
+  <string name="detail_info_thirties">30대</string>
+  <string name="detail_info_forties">40대</string>
+  <string name="detail_info_alone">혼자</string>
+  <string name="detail_info_couple">연인</string>
+  <string name="detail_info_friend">친구</string>
+  <string name="detail_info_next">다음</string>
+
+  <string name="detail_info_q4">Q4. </string>
+  <string name="detail_info_q5">Q5. </string>
+  <string name="detail_info_q6">Q6. </string>
+  <string name="detail_info_q4_string">얼마나 만나셨어요?</string>
+  <string name="detail_info_q5_string">어떤 곳이 좋으신가요?</string>
+  <string name="detail_info_q6_string">컨텐츠 수위를 선택해 주세요</string>
+  <string name="detail_info_start">시작하기</string>
+  <string name="detail_info_q4_1">썸-ing</string>
+  <string name="detail_info_q4_2">한창 달달할 때</string>
+  <string name="detail_info_q4_3">만날만큼 만남</string>
+  <string name="detail_info_q5_1">한적한 곳</string>
+  <string name="detail_info_q5_2">활기찬 곳</string>
+  <string name="detail_info_q6_1">착한 생각</string>
+  <string name="detail_info_q6_2">나쁜 생각</string>
+
+  <string name="nav_menu_1">기본정보 변경</string>
+  <string name="nav_menu_2">알림설정(메세지,이벤트)</string>
+  <string name="nav_menu_3">차단 유저 목록</string>
+  <string name="nav_menu_4">데이터 절약</string>
+  <string name="nav_menu_5">방해금지</string>
+  <string name="nav_menu_6">공지사항</string>
+  <string name="nav_menu_7">고객지원</string>
+
+  <string name="select_map_length">길이</string>
+  <string name="select_map_description">가볼만한 곳</string>
+
+  <string name="select_map_nanji_ko">난지 한강공원</string>
+  <string name="select_map_nanji_en">Nanji Hangang River</string>
+  <string name="select_map_nanji_length">4km(홍제천교 ~ 서울시계 난지천)</string>
+  <string name="select_map_nanji_description">중앙연결 브릿지, 강변 물놀이장, 생태 캠핑장, 거울분수, 생태습지원</string>
+
+  <string name="select_map_yeouido_ko">여의도 한강공원</string>
+  <string name="select_map_yeouido_en">Yeouido Hangang River</string>
+  <string name="select_map_yeouido_length">8.4km(최하류쪽 한강철교중앙 ~ 국회뒤샛강 사면지)</string>
+  <string name="select_map_yeouido_description">물빛무대, 물빛광장, 수질정화원, 페스티벌스탠드, 밤섬 생태보전지역, 여의못</string>
+
+  <string name="select_map_banpo_ko">반포 한강공원</string>
+  <string name="select_map_banpo_en">Banpo Hangang River</string>
+  <string name="select_map_banpo_length">4km(잠수교 상류 철탑 ~ 하류쪽 한강철교 중앙)</string>
+  <string name="select_map_banpo_description">동작대교 전망쉼터, 달빛 무지개분수, 서래섬</string>
+
+  <string name="select_map_ttugseom_ko">뚝섬 한강공원</string>
+  <string name="select_map_ttugseom_en">Ttugseom Hangang River</string>
+  <string name="select_map_ttugseom_length">11.5km(서울시계: 광진교 상류 육상 ~ 중랑천교)</string>
+  <string name="select_map_ttugseom_description">자벌레, 음악분수, 뚝섬 수영장, 자연학습장, 장미정원</string>
+
+  <string name="agreement_header">현재위치 서비스</string>
+  <string name="agreement_reason_string">정보제공에 동의 하시겠습니까?\n위치 정확도 및 주변 서비스가 향상됩니다.</string>
+  <string name="agreement_btn_y">네</string>
+  <string name="agreement_btn_n">아니요</string>
+
+  <string name="google_map_select_marker">대여할 대여소를 선택하세요</string>
+  <string name="navigate_header">123–4 대여소</string>
+  <string name="navigate_body">자전거를 대여하시겠습니까?\n안내가 시작됩니다.</string>
+
+  <string name="borrow_select">대여하실 자전거를 선택하세요.</string>
+  <string name="borrow_date">5/7</string>
+  <string name="borrow_time">시간</string>
+  <string name="borrow_fee">요금</string>
+  <string name="borrow_borrow">대여하기</string>
+</resources>

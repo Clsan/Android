@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView android:id="@+id/bill_layout"
+    android:layout_height="650dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="-70dp"
+    android:layout_marginLeft="-15dp"
+    android:layout_marginRight="-15dp"
+    android:src="@drawable/borrow_background"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="525dp"
+    android:orientation="vertical"
+    android:layout_marginTop="-3dp">
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="183dp"
+      android:orientation="vertical"
+      android:layout_marginBottom="-3dp">
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.66dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/select_map_yeouido_ko"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="@string/select_map_yeouido_en"
+        android:textColor="@color/byciclover_white"
+        android:textSize="11sp"/>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.33dp"
+        android:gravity="center"
+        android:text="@string/borrow_select"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+
+      <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4.33dp"
+        android:gravity="center"
+        android:text="@string/borrow_date"
+        android:textColor="@color/byciclover_white"
+        android:textSize="15sp"
+        fontPath="fonts/NotoSansCJKkr-Bold.otf"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/borrow_select_bike"/>
+
+    <LinearLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:layout_marginTop="45dp"
+      android:gravity="center"
+      android:orientation="horizontal">
+      <RelativeLayout
+        android:layout_height="32.66dp"
+        android:layout_width="121.33dp"
+        android:layout_marginEnd="18.66dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/borrow_time_box">
+        <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:paddingTop="2dp"
+          android:layout_marginStart="9.66dp"
+          android:text="@string/borrow_time"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="12.33dp"
+          fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+        <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:layout_marginEnd="43.33dp"
+          android:text="1"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="15sp"
+          android:layout_alignParentEnd="true"/>
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_height="32.66dp"
+        android:layout_width="121.33dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/borrow_bill_box">
+        <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:paddingTop="2dp"
+          android:layout_marginStart="9.66dp"
+          android:text="@string/borrow_fee"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="12.33dp"
+          fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+        <TextView
+          android:layout_height="wrap_content"
+          android:layout_width="wrap_content"
+          android:layout_marginEnd="19.33dp"
+          android:text="1000원"
+          android:textColor="@color/byciclover_main_text"
+          android:textSize="15sp"
+          android:layout_alignParentEnd="true" />
+      </RelativeLayout>
+    </LinearLayout>
+
+  </LinearLayout>
+
+  <Button
+    android:id="@+id/fragment_borrow_first_bottom_button"
+    android:layout_width="match_parent"
+    android:layout_height="59.33dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginStart="11dp"
+    android:layout_marginEnd="11dp"
+    android:layout_marginBottom="10.67dp"
+    android:background="@drawable/rectangle_part_rounded_purple"
+    android:text="@string/borrow_borrow"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    fontPath="fonts/NotoSansCJKkr-Bold.otf"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

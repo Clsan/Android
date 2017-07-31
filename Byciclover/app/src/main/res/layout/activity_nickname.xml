@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/activity_facebook_login"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context="com.clsan.byciclover.activities.NicknameActivity"
+  android:gravity="center_horizontal"
+  android:background="@color/byciclover_soft_gray"
+  android:orientation="vertical">
+
+  <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="63.67dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/top_bar">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="38dp"
+      android:gravity="center_vertical"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentStart="true"
+      android:text="@string/nickname_title"
+      android:textSize="17sp"
+      android:textColor="@color/byciclover_purple"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+  </RelativeLayout>
+
+  <ImageView
+    android:id="@+id/image_logo_nickname"
+    android:layout_width="157.67dp"
+    android:layout_height="61.67dp"
+    android:layout_marginTop="68dp"
+    android:src="@drawable/logo_heart"
+    android:contentDescription="@string/logo_image" />
+
+  <RelativeLayout
+    android:layout_height="61.33dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="62.33dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/nick_name_shadow_box">
+    <ImageView
+      android:layout_height="14dp"
+      android:layout_width="14dp"
+      android:layout_marginStart="14dp"
+      android:layout_marginTop="13.33dp"
+      android:src="@drawable/user_purple" />
+    <EditText
+      android:id="@+id/text_edit_nickname"
+      android:layout_width="270dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="35dp"
+      android:layout_marginTop="10dp"
+      android:inputType="text"
+      android:hint="@string/nickname_hint"
+      android:background="@null"
+      android:textColor="#525252"
+      android:textSize="13.33sp"
+      fontPath="fonts/NotoSansCJKkr-Bold.otf"
+      android:includeFontPadding="false" />
+    <ImageView android:id="@+id/activity_nickname_erase"
+      android:layout_height="13dp"
+      android:layout_width="13dp"
+      android:layout_marginEnd="15.67dp"
+      android:layout_marginTop="15dp"
+      android:layout_alignParentEnd="true"
+      android:src="@drawable/erase"/>
+    <TextView android:id="@+id/activity_nickname_warning"
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:layout_marginStart="14.33dp"
+      android:layout_marginBottom="10dp"
+      android:layout_alignParentBottom="true"
+      android:visibility="invisible"
+      android:text="@string/nickname_looks_good"
+      android:textColor="#01a714"
+      android:textSize="12sp"
+      fontPath="fonts/NotoSansCJKkr-Medium.otf" />
+  </RelativeLayout>
+
+  <Button
+    android:id="@+id/button_confirm_nickname"
+    android:layout_width="match_parent"
+    android:layout_height="49dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="6.67dp"
+    android:layout_marginStart="14dp"
+    android:layout_marginEnd="14dp"
+    android:text="@string/nickname_confirm"
+    android:textSize="16sp"
+    android:textColor="@color/byciclover_white"
+    android:background="@drawable/rectangle_part_rounded_purple"
+    fontPath="fonts/NotoSansCJKkr-Bold.otf" />
+
+
+  <ImageView
+    android:id="@+id/splash_test"
+    android:layout_height="200dp"
+    android:layout_width="200dp" />
+
+</LinearLayout>
